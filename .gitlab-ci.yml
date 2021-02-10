@@ -10,7 +10,6 @@ SILThemesTests:
   tags:
     - healthcloud-multi
   script:
-    - cd sil_themes/
     - flutter pub get
     - flutter analyze
     - flutter test --coverage test
