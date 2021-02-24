@@ -46,7 +46,7 @@ Widget largeHorizontalSizedBox = SizedBox(width: 30);
 Widget size40HorizontalSizedBox = SizedBox(height: 40);
 Widget veryLargeHorizontalSizedBox = SizedBox(width: 50);
 
-/// vertical sizedboxes
+/// vertical sized boxes
 Widget extremelySmallVerticalSizedBox = SizedBox(height: 2);
 Widget extremelyLargeVerticalSizedBox = SizedBox(height: 60);
 Widget size100VerticalSizedBox = SizedBox(height: 100);
@@ -88,13 +88,13 @@ EdgeInsets drawerLinkPadding = const EdgeInsets.only(left: 25);
 EdgeInsets placeHolderPadding =
     const EdgeInsets.symmetric(horizontal: 20, vertical: 10);
 
-EdgeInsets extraLargehorizontalPadding =
+EdgeInsets extraLargeHorizontalPadding =
     const EdgeInsets.symmetric(horizontal: 20);
 EdgeInsets constantPadding =
     const EdgeInsets.symmetric(horizontal: 16.0, vertical: 4);
-EdgeInsets smallhorizontalPadding = const EdgeInsets.symmetric(horizontal: 7);
-EdgeInsets largehorizontalPadding = const EdgeInsets.symmetric(horizontal: 15);
-EdgeInsets verylargehorizontalPadding =
+EdgeInsets smallHorizontalPadding = const EdgeInsets.symmetric(horizontal: 7);
+EdgeInsets largeHorizontalPadding = const EdgeInsets.symmetric(horizontal: 15);
+EdgeInsets veryLargeHorizontalPadding =
     const EdgeInsets.symmetric(horizontal: 25);
 EdgeInsets smallVerticalPadding = const EdgeInsets.symmetric(vertical: 10);
 EdgeInsets linkedBenefitsPadding = const EdgeInsets.symmetric(horizontal: 1);

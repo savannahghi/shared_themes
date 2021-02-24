@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-
-import '../lib/constants.dart';
+import 'package:sil_themes/constants.dart';
 
 void main() {
   test('getSuccessfulAddMessage', () {
@@ -19,15 +18,19 @@ void main() {
   test('getErrorMessage ', () {
     final String process = 'processing';
     final String message = UserFeedBackTexts.getErrorMessage(process);
-    expect(message,
-        'Sorry, an error occurred while $process. Please try again later, or contact Slade 360 HealthCloud Support on $kHealthCloudSupportNumber');
+    expect(
+        message,
+        'Sorry, an error occurred while $process. Please try again later, '
+        'or contact Slade 360 Be.Well Support on $kBewellSupportPhoneNumber');
   });
 
   test('getErrorMessage when isEmpty', () {
     final String process = '';
     final String message = UserFeedBackTexts.getErrorMessage(process);
-    expect(message,
-        'Sorry, an error occurred. Please try again, or contact Slade 360 HealthCloud Support support on $kHealthCloudSupportNumber');
+    expect(
+        message,
+        'Sorry, an error occurred. Please try again, or contact '
+        'Slade 360 Be.Well Support support on $kBewellSupportPhoneNumber');
   });
 
 // This value is subject to discussion

@@ -65,11 +65,11 @@ const Color transparent = Colors.transparent;
 
 const Color green = Colors.green;
 
-/// used in the signup and verification pages
+/// used in the sign up and verification pages
 const Color authBackgroundColor = Color(0xffeff5ff);
 
 /* status colors
-/ [successColor] is used to communicate precence of a positive action
+/ [successColor] is used to communicate presence of a positive action
 / [cautionColor] is used to communicate a warning
 / [dangerColor] is used to communicate danger or remove buttons
 / [notificationColor] is used to show notifications

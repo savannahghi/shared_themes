@@ -19,15 +19,15 @@ RegExp emailValidator = RegExp(
     r"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?)*$");
 
 const double kProblemItemHeight = 110.0;
-const String kHealthCloudSupportNumber = '0790 360 360';
+
 const String kWhatsAppNumber = '+12028569601';
-const String kbewellSupportNumber = '+254790360360';
+const String kBewellSupportPhoneNumber = '+254790360360';
 
 //long snackbar duration used for more important information
-const int kLongsnackBarDuration = 10;
+const int kLongSnackBarDuration = 10;
 
 //short snackbar duration used for less important information
-const int kShortsnackBarDuration = 5;
+const int kShortSnackBarDuration = 5;
 
 class UserFeedBackTexts {
   static final String steadyDevice =
@@ -45,9 +45,13 @@ class UserFeedBackTexts {
       'Select or take a photo of $name';
   static String getErrorMessage([String process = '']) {
     if (process.isEmpty) {
-      return 'Sorry, an error occurred. Please try again, or contact Slade 360 HealthCloud Support support on $kHealthCloudSupportNumber';
+      return 'Sorry, an error occurred. Please try again,'
+          ' or contact Slade 360 Be.Well Support support'
+          ' on $kBewellSupportPhoneNumber';
     } else {
-      return 'Sorry, an error occurred while $process. Please try again later, or contact Slade 360 HealthCloud Support on $kHealthCloudSupportNumber';
+      return 'Sorry, an error occurred while $process.'
+          ' Please try again later, or contact Slade 360 Be.Well '
+          'Support on $kBewellSupportPhoneNumber';
     }
   }
 
