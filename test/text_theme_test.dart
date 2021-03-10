@@ -5,7 +5,7 @@ import '../lib/text_themes.dart';
 
 void main() {
   test('should expect the right text styles for Text Theme', () {
-    Color color;
+    Color? color;
 
 //size 50
     final TextStyle _heavySize50Text = TextThemes.heavySize50Text();
