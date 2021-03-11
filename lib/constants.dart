@@ -30,13 +30,13 @@ const int kLongSnackBarDuration = 10;
 const int kShortSnackBarDuration = 5;
 
 class UserFeedBackTexts {
-  static final String steadyDevice =
+  static const String steadyDevice =
       'Please hold your phone steady to take a clear photo';
-  static final String selectFileError = 'Error selecting file';
-  static final String uploadFileFail = 'Failed to upload file';
-  static final String noFileSelected = 'No file selected';
-  static final String savingFile = 'Saving file';
-  static final List<String> controlLabels = <String>[
+  static const String selectFileError = 'Error selecting file';
+  static const String uploadFileFail = 'Failed to upload file';
+  static const String noFileSelected = 'No file selected';
+  static const String savingFile = 'Saving file';
+  static const List<String> controlLabels = <String>[
     'Select',
     'Camera',
     'Remove'
@@ -67,4 +67,4 @@ class UserFeedBackTexts {
 enum VerificationType { phone, email, reset }
 
 // the duration to wait before showing the resend otp widget
-final int otpResendTimeoutDuration = 60;
+const int otpResendTimeoutDuration = 60;

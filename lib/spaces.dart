@@ -30,28 +30,28 @@ class Sizing {
 }
 
 //different commonly used sized boxes
-Widget verySmallVerticalSizedBox = SizedBox(height: 5);
-Widget smallVerticalSizedBox = SizedBox(height: 10);
-Widget size15VerticalSizedBox = SizedBox(height: 15);
-Widget mediumVerticalSizedBox = SizedBox(height: 20);
-Widget largeVerticalSizedBox = SizedBox(height: 30);
-Widget size40VerticalSizedBox = SizedBox(height: 40);
-Widget veryLargeVerticalSizedBox = SizedBox(height: 50);
+Widget verySmallVerticalSizedBox =const SizedBox(height: 5);
+Widget smallVerticalSizedBox =const SizedBox(height: 10);
+Widget size15VerticalSizedBox = const SizedBox(height: 15);
+Widget mediumVerticalSizedBox =const SizedBox(height: 20);
+Widget largeVerticalSizedBox =const SizedBox(height: 30);
+Widget size40VerticalSizedBox =const SizedBox(height: 40);
+Widget veryLargeVerticalSizedBox =const SizedBox(height: 50);
 
-Widget verySmallHorizontalSizedBox = SizedBox(width: 5);
-Widget smallHorizontalSizedBox = SizedBox(width: 10);
-Widget size15HorizontalSizedBox = SizedBox(width: 15);
-Widget mediumHorizontalSizedBox = SizedBox(width: 20);
-Widget largeHorizontalSizedBox = SizedBox(width: 30);
-Widget size40HorizontalSizedBox = SizedBox(height: 40);
-Widget veryLargeHorizontalSizedBox = SizedBox(width: 50);
+Widget verySmallHorizontalSizedBox =const SizedBox(width: 5);
+Widget smallHorizontalSizedBox =const SizedBox(width: 10);
+Widget size15HorizontalSizedBox = const SizedBox(width: 15);
+Widget mediumHorizontalSizedBox =const SizedBox(width: 20);
+Widget largeHorizontalSizedBox = const SizedBox(width: 30);
+Widget size40HorizontalSizedBox =const SizedBox(height: 40);
+Widget veryLargeHorizontalSizedBox =const SizedBox(width: 50);
 
 /// vertical sized boxes
-Widget extremelySmallVerticalSizedBox = SizedBox(height: 2);
-Widget extremelyLargeVerticalSizedBox = SizedBox(height: 60);
-Widget size100VerticalSizedBox = SizedBox(height: 100);
-Widget size70VerticalSizedBox = SizedBox(height: 70);
-Widget size120VerticalSizedBox = SizedBox(height: 120);
+Widget extremelySmallVerticalSizedBox =const SizedBox(height: 2);
+Widget extremelyLargeVerticalSizedBox =const SizedBox(height: 60);
+Widget size100VerticalSizedBox =const SizedBox(height: 100);
+Widget size70VerticalSizedBox = const SizedBox(height: 70);
+Widget size120VerticalSizedBox = const SizedBox(height: 120);
 
 // the different paddings
 EdgeInsets smallPadding = const EdgeInsets.all(5.0);
@@ -126,7 +126,7 @@ EdgeInsets appBarPadding = const EdgeInsets.fromLTRB(14, 30, 15, 0);
 LinearGradient getAppGradient(BuildContext context) => LinearGradient(
       begin: Alignment.topLeft,
       end: Alignment.bottomRight,
-      stops: <double>[0.2, 1],
+      stops:const <double>[0.2, 1],
       colors: <Color>[
         Theme.of(context).accentColor,
         Theme.of(context).accentColor,

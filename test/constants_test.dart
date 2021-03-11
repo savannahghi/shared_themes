@@ -3,20 +3,20 @@ import 'package:sil_themes/constants.dart';
 
 void main() {
   test('getSuccessfulAddMessage', () {
-    final String process = 'Cover added';
+    const String process = 'Cover added';
     final String message = UserFeedBackTexts.getSuccessfulAddMessage(process);
     expect(message, '$process added successfully');
   });
 
   test('getSuccessfulRetireMessage', () {
-    final String process = 'Retire';
+    const String process = 'Retire';
     final String message =
         UserFeedBackTexts.getSuccessfulRetireMessage(process);
     expect(message, '$process retired successfully');
   });
 
   test('getErrorMessage ', () {
-    final String process = 'processing';
+    const String process = 'processing';
     final String message = UserFeedBackTexts.getErrorMessage(process);
     expect(
         message,
@@ -25,8 +25,7 @@ void main() {
   });
 
   test('getErrorMessage when isEmpty', () {
-    final String process = '';
-    final String message = UserFeedBackTexts.getErrorMessage(process);
+    final String message = UserFeedBackTexts.getErrorMessage();
     expect(
         message,
         'Sorry, an error occurred. Please try again, or contact '

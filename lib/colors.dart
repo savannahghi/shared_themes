@@ -87,8 +87,8 @@ final List<Color> silLinearGradientColors = <Color>[
   healthcloudPrimaryColor,
 ];
 
-final Color greyCardBackground = Color(0xfff7f7f9);
+ const Color greyCardBackground = Color(0xfff7f7f9);
 
-final Color appBackgroundColor = Color(0xffF4F5FA);
+const Color appBackgroundColor = Color(0xffF4F5FA);
 
-final Color containerBackgroundColor = Color(0xffF6F7FB);
+const Color containerBackgroundColor = Color(0xffF6F7FB);
