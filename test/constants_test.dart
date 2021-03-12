@@ -45,4 +45,17 @@ void main() {
     expect(americanPhoneRegExp,
         RegExp(r'''^(\+)(\d{1,})([(]{1}\d{1,3}[)]){0,}\d{2}\d{3}\d{5}$'''));
   });
+
+  test('should show the email regex exists', () {
+    expect(
+        emailValidator,
+        RegExp(
+            r"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?)*$"));
+  });
+
+  test('selectOrTakeMessage', () {
+    const String name = 'your ID';
+    final String message = UserFeedBackTexts.selectOrTakeMessage(name);
+    expect(message,'Select or take a photo of $name');
+  });
 }
