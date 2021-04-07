@@ -1,6 +1,6 @@
 // a valid Kenyan phone number regex
 RegExp kenyanPhoneRegExp = RegExp(
-    r'''^(?:254|\+254|0)?((7|1)(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$''');
+    r'''^(?:254|\+254|0)?((7|1)(?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$''');
 
 // a valid US phone number regex
 RegExp americanPhoneRegExp =

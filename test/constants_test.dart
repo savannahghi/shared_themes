@@ -41,9 +41,26 @@ void main() {
     expect(
         kenyanPhoneRegExp,
         RegExp(
-            r'''^(?:254|\+254|0)?((7|1)(?:(?:[129][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$'''));
+            r'''^(?:254|\+254|0)?((7|1)(?:(?:[0-9][0-9])|(?:0[0-8])|(4[0-1]))[0-9]{6})$'''));
     expect(americanPhoneRegExp,
         RegExp(r'''^(\+)(\d{1,})([(]{1}\d{1,3}[)]){0,}\d{2}\d{3}\d{5}$'''));
+  });
+
+  test('should return true if number is Kenyan', () {
+    const String testKenyanNumber1 = '0735000000';
+    const String testKenyanNumber2 = '0720000000';
+    const String testKenyanNumber3 = '0790000000';
+    const String testKenyanNumber4 = '0110000000';
+
+    final bool result1 = kenyanPhoneRegExp.hasMatch(testKenyanNumber1);
+    final bool result2 = kenyanPhoneRegExp.hasMatch(testKenyanNumber2);
+    final bool result3 = kenyanPhoneRegExp.hasMatch(testKenyanNumber3);
+    final bool result4 = kenyanPhoneRegExp.hasMatch(testKenyanNumber4);
+
+    expect(result1, true);
+    expect(result2, true);
+    expect(result3, true);
+    expect(result4, true);
   });
 
   test('should show the email regex exists', () {
@@ -56,6 +73,6 @@ void main() {
   test('selectOrTakeMessage', () {
     const String name = 'your ID';
     final String message = UserFeedBackTexts.selectOrTakeMessage(name);
-    expect(message,'Select or take a photo of $name');
+    expect(message, 'Select or take a photo of $name');
   });
 }
