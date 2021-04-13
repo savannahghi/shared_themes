@@ -18,7 +18,7 @@ List<String> supportedIosVersions = <String>[
 RegExp emailValidator = RegExp(
     r"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?)*$");
 
-const double kProblemItemHeight = 110.0;
+const double kProblemItemHeight = 160.0;
 
 const String kWhatsAppNumber = '+12028569601';
 const String kBewellSupportPhoneNumber = '+254790360360';
