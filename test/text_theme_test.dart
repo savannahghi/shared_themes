@@ -99,155 +99,237 @@ void main() {
         _normalSize24Text, GoogleFonts.montserrat(color: color, fontSize: 24));
 
     final TextStyle _veryBoldSize22Text = TextThemes.veryBoldSize22Text();
-    expect(_veryBoldSize22Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w600, color: color, fontSize: 22));
+    expect(
+        _veryBoldSize22Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w600, color: color, fontSize: 22));
     final TextStyle _boldSize22Text = TextThemes.boldSize22Text();
-    expect(_boldSize22Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w500, color: color, fontSize: 22));
+    expect(
+        _boldSize22Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w500, color: color, fontSize: 22));
 
     final TextStyle _mediumSize22Text = TextThemes.mediumSize22Text();
-    expect(_mediumSize22Text,
-        GoogleFonts.montserrat(color: color, fontWeight: FontWeight.w500, fontSize: 22));
+    expect(
+        _mediumSize22Text,
+        GoogleFonts.montserrat(
+            color: color, fontWeight: FontWeight.w500, fontSize: 22));
 
     final TextStyle _normalSize22Text = TextThemes.normalSize22Text();
-    expect(_normalSize22Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 22));
+    expect(
+        _normalSize22Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 22));
 
     // size 20
     final TextStyle _veryHeavySize20Text = TextThemes.veryHeavySize20Text();
-    expect(_veryHeavySize20Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w800, color: color, fontSize: 20));
+    expect(
+        _veryHeavySize20Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w800, color: color, fontSize: 20));
     final TextStyle _heavySize20Text = TextThemes.heavySize20Text();
-    expect(_heavySize20Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w700, color: color, fontSize: 20));
+    expect(
+        _heavySize20Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w700, color: color, fontSize: 20));
     final TextStyle _veryBoldSize20Text = TextThemes.veryBoldSize20Text();
-    expect(_veryBoldSize20Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w600, color: color, fontSize: 20));
+    expect(
+        _veryBoldSize20Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w600, color: color, fontSize: 20));
     final TextStyle _boldSize20Text = TextThemes.boldSize20Text();
-    expect(_boldSize20Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w500, color: color, fontSize: 20));
+    expect(
+        _boldSize20Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w500, color: color, fontSize: 20));
 
     final TextStyle _mediumSize20Text = TextThemes.mediumSize20Text();
-    expect(_mediumSize20Text,
-        GoogleFonts.montserrat(color: color, fontWeight: FontWeight.w500, fontSize: 20));
+    expect(
+        _mediumSize20Text,
+        GoogleFonts.montserrat(
+            color: color, fontWeight: FontWeight.w500, fontSize: 20));
 
     final TextStyle _normalSize20Text = TextThemes.normalSize20Text();
-    expect(_normalSize20Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 20));
+    expect(
+        _normalSize20Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 20));
 
     // size 18
     final TextStyle _heavySize18Text = TextThemes.heavySize18Text();
-    expect(_heavySize18Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w700, color: color, fontSize: 18));
+    expect(
+        _heavySize18Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w700, color: color, fontSize: 18));
     final TextStyle _veryBoldSize18Text = TextThemes.veryBoldSize18Text();
-    expect(_veryBoldSize18Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w600, color: color, fontSize: 18));
+    expect(
+        _veryBoldSize18Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w600, color: color, fontSize: 18));
     final TextStyle _boldSize18Text = TextThemes.boldSize18Text();
-    expect(_boldSize18Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w500, color: color, fontSize: 18));
+    expect(
+        _boldSize18Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w500, color: color, fontSize: 18));
     final TextStyle _normalSize18Text = TextThemes.normalSize18Text();
-    expect(_normalSize18Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 18));
+    expect(
+        _normalSize18Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 18));
 
     // size 17
     final TextStyle _veryBoldSize17Text = TextThemes.veryBoldSize17Text();
-    expect(_veryBoldSize17Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w600, color: color, fontSize: 17));
+    expect(
+        _veryBoldSize17Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w600, color: color, fontSize: 17));
     final TextStyle _normalSize17Text = TextThemes.normalSize17Text();
-    expect(_normalSize17Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 17));
+    expect(
+        _normalSize17Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 17));
 
     // size 16
     final TextStyle _heavySize16Text = TextThemes.heavySize16Text();
-    expect(_heavySize16Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w700, color: color, fontSize: 16));
+    expect(
+        _heavySize16Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w700, color: color, fontSize: 16));
     final TextStyle _veryBoldSize16Text = TextThemes.veryBoldSize16Text();
-    expect(_veryBoldSize16Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w600, color: color, fontSize: 16));
+    expect(
+        _veryBoldSize16Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w600, color: color, fontSize: 16));
     final TextStyle _boldSize16Text = TextThemes.boldSize16Text();
-    expect(_boldSize16Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w500, color: color, fontSize: 16));
+    expect(
+        _boldSize16Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w500, color: color, fontSize: 16));
     final TextStyle _normalSize16Text = TextThemes.normalSize16Text();
-    expect(_normalSize16Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 16));
+    expect(
+        _normalSize16Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 16));
     final TextStyle _lightSize16Text = TextThemes.lightSize16Text();
-    expect(_lightSize16Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w300, color: color, fontSize: 16));
+    expect(
+        _lightSize16Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w300, color: color, fontSize: 16));
 
     // size 15
     final TextStyle _veryBoldSize15Text = TextThemes.veryBoldSize15Text();
-    expect(_veryBoldSize15Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w600, color: color, fontSize: 15));
+    expect(
+        _veryBoldSize15Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w600, color: color, fontSize: 15));
     final TextStyle _boldSize15Text = TextThemes.boldSize15Text();
-    expect(_boldSize15Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w500, color: color, fontSize: 15));
+    expect(
+        _boldSize15Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w500, color: color, fontSize: 15));
     final TextStyle _normalSize15Text = TextThemes.normalSize15Text();
-    expect(_normalSize15Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 15));
+    expect(
+        _normalSize15Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 15));
 
     // size 14
     final TextStyle _veryHeavySize14Text = TextThemes.veryHeavySize14Text();
-    expect(_veryHeavySize14Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w800, color: color, fontSize: 14));
+    expect(
+        _veryHeavySize14Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w800, color: color, fontSize: 14));
     final TextStyle _heavySize14Text = TextThemes.heavySize14Text();
-    expect(_heavySize14Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w700, color: color, fontSize: 14));
+    expect(
+        _heavySize14Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w700, color: color, fontSize: 14));
     final TextStyle _boldSize14Text = TextThemes.boldSize14Text();
-    expect(_boldSize14Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w500, color: color, fontSize: 14));
+    expect(
+        _boldSize14Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w500, color: color, fontSize: 14));
     final TextStyle _veryBoldSize14Text = TextThemes.veryBoldSize14Text();
-    expect(_veryBoldSize14Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w600, color: color, fontSize: 14));
+    expect(
+        _veryBoldSize14Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w600, color: color, fontSize: 14));
     final TextStyle _normalSize14Text = TextThemes.normalSize14Text();
-    expect(_normalSize14Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 14));
+    expect(
+        _normalSize14Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 14));
 
     final TextStyle _mediumSize14Text = TextThemes.mediumSize14Text();
-    expect(_mediumSize14Text,
-        GoogleFonts.montserrat(color: color, fontWeight: FontWeight.w600, fontSize: 14));
+    expect(
+        _mediumSize14Text,
+        GoogleFonts.montserrat(
+            color: color, fontWeight: FontWeight.w600, fontSize: 14));
     // size 13
     final TextStyle _boldSize13Text = TextThemes.boldSize13Text();
-    expect(_boldSize13Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w500, color: color, fontSize: 13));
+    expect(
+        _boldSize13Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w500, color: color, fontSize: 13));
     final TextStyle _normalSize13Text = TextThemes.normalSize13Text();
-    expect(_normalSize13Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 13));
+    expect(
+        _normalSize13Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 13));
 
     // size 12
     final TextStyle _heavySize12Text = TextThemes.heavySize12Text();
-    expect(_heavySize12Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w700, color: color, fontSize: 12));
+    expect(
+        _heavySize12Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w700, color: color, fontSize: 12));
 
     final TextStyle _veryHeavySize12Text = TextThemes.veryHeavySize12Text();
-    expect(_veryHeavySize12Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w800, color: color, fontSize: 12));
+    expect(
+        _veryHeavySize12Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w800, color: color, fontSize: 12));
 
     final TextStyle _boldSize12Text = TextThemes.boldSize12Text();
-    expect(_boldSize12Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w500, color: color, fontSize: 12));
+    expect(
+        _boldSize12Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w500, color: color, fontSize: 12));
     final TextStyle _normalSize12Text = TextThemes.normalSize12Text();
-    expect(_normalSize12Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 12));
+    expect(
+        _normalSize12Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 12));
 
     // size 11
     final TextStyle _heavySize11Text = TextThemes.heavySize11Text();
-    expect(_heavySize11Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w700, color: color, fontSize: 11));
+    expect(
+        _heavySize11Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w700, color: color, fontSize: 11));
     final TextStyle _normalSize11Text = TextThemes.normalSize11Text();
-    expect(_normalSize11Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 11));
+    expect(
+        _normalSize11Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 11));
 
     // size 10
     final TextStyle _heavySize10Text = TextThemes.heavySize10Text();
-    expect(_heavySize10Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w700, color: color, fontSize: 10));
+    expect(
+        _heavySize10Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w700, color: color, fontSize: 10));
     final TextStyle _normalSize10Text = TextThemes.normalSize10Text();
-    expect(_normalSize10Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 10));
+    expect(
+        _normalSize10Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 10));
 
     // size 9
     final TextStyle _normalSize9Text = TextThemes.normalSize9Text();
-    expect(_normalSize9Text,
-        GoogleFonts.montserrat(fontWeight: FontWeight.w400, color: color, fontSize: 9));
+    expect(
+        _normalSize9Text,
+        GoogleFonts.montserrat(
+            fontWeight: FontWeight.w400, color: color, fontSize: 9));
   });
 }
