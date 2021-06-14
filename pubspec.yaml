@@ -1,6 +1,10 @@
 name: shared_themes
 description: A shared library for `BeWell-Consumer` and `BeWell-Professional` that is responsible for defining and providing theme/style guidelines
-version:  0.0.9
+version: 0.0.9
+homepage: https://github.com/savannahghi/shared_themes
+repository: https://github.com/savannahghi/shared_themes
+issue_tracker: https://github.com/savannahghi/shared_themes/issues
+documentation: https://github.com/savannahghi/shared_themes/blob/main/doc/readme.md
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
@@ -16,9 +20,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   lint: ^1.5.3
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
 
-# The following section is specific to Flutter.
 flutter:
   uses-material-design: true
