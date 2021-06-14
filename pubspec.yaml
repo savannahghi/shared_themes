@@ -1,8 +1,6 @@
-name: sil_themes
+name: shared_themes
 description: A shared library for `BeWell-Consumer` and `BeWell-Professional` that is responsible for defining and providing theme/style guidelines
-version: 0.0.1
-author:
-homepage:
+version:  0.0.9
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
