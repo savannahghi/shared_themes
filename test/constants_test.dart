@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:sil_themes/constants.dart';
+import 'package:shared_themes/constants.dart';
 
 void main() {
   test('getSuccessfulAddMessage', () {
