@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_themes/colors.dart';
 import 'package:shared_themes/spaces.dart';
+import 'package:shared_themes/text_themes.dart';
 
 void main() {
   runApp(const SharedThemesExample());
@@ -31,9 +32,10 @@ class _SharedThemesExampleState extends State<SharedThemesExample> {
 
             /// Uses the sizes exported as doubles in `spaces.dart`
             const SizedBox(height: Sizing.size4),
+            /// Use the text themes defined `text_themes.dart`
             Text(
               'Counter value',
-              style: Theme.of(context).textTheme.headline4,
+              style: TextThemes.normalSize20Text(),
             ),
           ],
         ),

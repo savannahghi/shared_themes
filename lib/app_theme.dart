@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   static ThemeData getAppTheme(String flavour) {
-    // TODO: check flavour
     return ThemeData(
         fontFamily: 'Lato',
         primaryColor: AppColors.consumerColors['primaryColor'],
