@@ -1,4 +1,4 @@
-[![Release](https://img.shields.io/badge/Version-^0.0.9-success.svg?style=for-the-badge)](https://shields.io/)
+[![Release](https://img.shields.io/badge/Version-^0.1.0-success.svg?style=for-the-badge)](https://shields.io/)
 [![Maintained](https://img.shields.io/badge/Maintained-Actively-informational.svg?style=for-the-badge)](https://shields.io/)
 
 # shared_themes
@@ -23,7 +23,7 @@ This will add a line like this to your package's pubspec.yaml (and run an implic
 
 ```dart
 dependencies:
-  shared_themes: ^0.0.9
+  shared_themes: ^0.1.0
 ```
 
 Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn more.
@@ -35,3 +35,25 @@ Import it like so:
 ```dart
 import 'package:shared_themes/colors.dart';
 ```
+
+## Usage
+
+Check the [example](https://github.com/savannahghi/shared_themes/blob/main/example/main.dart) provided for how to use this package.
+
+## Dart & Flutter Version
+
+- Dart 2: >= 2.12
+- Flutter: >=2.0.0
+
+## Developing & Contributing
+
+First off, thanks for taking the time to contribute!
+
+Be sure to check out detailed instructions on how to contribute to this project [here](https://github.com/savannahghi/shared_themes/blob/main/CONTRIBUTING.md) and go through out [Code of Conduct](https://github.com/savannahghi/shared_themes/blob/main/CODE_OF_CONDUCT.md).
+
+GPG Signing: 
+As a contributor, you need to sign your commits. For more details check [here](https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification/signing-commits)
+
+## License
+
+This library is distributed under the MIT license found in the [LICENSE](https://github.com/savannahghi/shared_themes/blob/main/LICENSE) file.
