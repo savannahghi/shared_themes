@@ -1,7 +1,10 @@
+### 0.1.1
+
+* chore: update colors
+
 ### 0.1.0
 
 - doc: project documentation fixes
-
 ### 0.0.9
 
 * chore: update dependencies (google_fonts, lint, )

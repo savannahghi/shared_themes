@@ -11,6 +11,9 @@ const Color sILButtonColor = Colors.cyan;
 //Primary color - cyan
 const Color healthcloudPrimaryColor = Color(0xFF7949AF);
 
+//Primary Light color
+const Color healthcloudPrimaryLightColor = Color(0xFF9972c4);
+
 // accent color - purple
 const Color healthcloudAccentColor = Color(0xFF739A00);
 
