@@ -92,3 +92,23 @@ const Color greyCardBackground = Color(0xfff7f7f9);
 const Color appBackgroundColor = Color(0xffF4F5FA);
 
 const Color containerBackgroundColor = Color(0xffF6F7FB);
+
+const Color primaryGreenSelectedColor = Color(0xff144C4A);
+const Color secondaryGreenSelectedColor = Color(0xff3D7B78);
+const Color tertiaryGreenSelectedColor = Color(0xffB4E7DB);
+const Color backgroundGreenSelectedColor = Color(0xffDBF4ED);
+const Color purpleBackgroundColor = Color(0xffF3F3FD);
+const Color linkColor = Color(0xff448AFF);
+const Color subtitleTextColor = Color(0xff7E7D7E);
+const Color secondaryTextColor = Color(0xff9077B9);
+const Color textFiledGreyColor = Color(0xffC4C4C4);
+const Color secondaryNavButtonColor = Color(0xffE0E0E0);
+const Color primaryNavButtonColor = Color(0xff53C451);
+const Color backgroundGreyColor = Color(0xffF2F2F2);
+const Color primaryErrorColor = Color(0xffF85C5D);
+const Color mainWarningColor = Color(0xff5C4914);
+const Color secondaryWarningColor = Color(0xff94772E);
+const Color warningBackgroundColor = Color(0xffFFFCF4);
+const Color primaryNudgeColor = Color(0xff90A955);
+const Color secondaryNudgeColor = Color(0xff5F99FA);
+const Color urgentNudgeColor = Color(0xffED7A7A);
