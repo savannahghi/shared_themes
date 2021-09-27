@@ -1,3 +1,7 @@
+### 0.1.1
+
+- chore: add new colors
+
 ### 0.1.0
 
 - doc: project documentation fixes
