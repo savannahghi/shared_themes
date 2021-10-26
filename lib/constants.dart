@@ -31,7 +31,7 @@ RegExp emailValidator = RegExp(
 const double kProblemItemHeight = 160.0;
 
 const String kWhatsAppNumber = '+12028569601';
-const String kBewellSupportPhoneNumber = '+254790360360';
+const String kBewellSupportPhoneNumber = '0790360360';
 
 //long snackbar duration used for more important information
 const int kLongSnackBarDuration = 10;
