@@ -1,3 +1,7 @@
+### 0.1.2
+
+- refactor: support phone number string
+ 
 ### 0.1.1
 
 - chore: add new colors
