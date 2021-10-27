@@ -1,3 +1,7 @@
+### 0.1.3
+
+- refactor: update colors
+
 ### 0.1.2
 
 - refactor: support phone number string
