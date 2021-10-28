@@ -1,3 +1,7 @@
+### 0.1.4
+
+- refactor: add color
+
 ### 0.1.3
 
 - refactor: update colors
