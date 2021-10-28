@@ -112,4 +112,4 @@ const Color warningBackgroundColor = Color(0xffFFFCF4);
 const Color primaryNudgeColor = Color(0xff90A955);
 const Color secondaryNudgeColor = Color(0xff5F99FA);
 const Color urgentNudgeColor = Color(0xffED7A7A);
-const Color mercuryColor = Color(0xffE5E5E5);
+const Color catskillWhiteColor = Color(0xffF9FAFC);
