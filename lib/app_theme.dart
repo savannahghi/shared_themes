@@ -2,12 +2,29 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   static ThemeData getAppTheme(String flavour) {
+    final ColorScheme colorScheme = ColorScheme(
+      primary: AppColors.consumerColors['primaryColor']!,
+      primaryVariant: AppColors.consumerColors['primaryDark']!,
+      secondary: AppColors.consumerColors['accentColor']!,
+      secondaryVariant: const Color(0xFFFAFBFB),
+      background: AppColors.consumerColors['backgroundColor']!,
+      surface: const Color(0xFF808080),
+      onBackground: Colors.white,
+      error: Colors.redAccent,
+      onError: Colors.redAccent,
+      onPrimary: Colors.redAccent,
+      onSecondary: const Color(0xFF322942),
+      onSurface: const Color(0xFF241E30),
+      brightness: Brightness.light,
+    );
+
     return ThemeData(
         fontFamily: 'Lato',
         primaryColor: AppColors.consumerColors['primaryColor'],
         primaryColorDark: AppColors.consumerColors['primaryDark'],
         accentColor: AppColors.consumerColors['accentColor'],
         backgroundColor: AppColors.consumerColors['backgroundColor'],
+        colorScheme: colorScheme,
         textSelectionTheme: TextSelectionThemeData(
           cursorColor: const Color.fromRGBO(66, 133, 244, 1.0),
           selectionColor: AppColors.consumerColors['textSelectionColor'],
