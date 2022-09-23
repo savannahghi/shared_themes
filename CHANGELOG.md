@@ -1,3 +1,7 @@
+### 0.1.5
+
+- feat: setup automated deployment to pub.dev
+
 ### 0.1.4
 
 - refactor: add color
@@ -9,7 +13,7 @@
 ### 0.1.2
 
 - refactor: support phone number string
- 
+
 ### 0.1.1
 
 - chore: add new colors
@@ -20,10 +24,10 @@
 
 ### 0.0.9
 
-* chore: update dependencies (google_fonts, lint, )
+- chore: update dependencies (google_fonts, lint, )
 
-### Pre - [0.0.8] 
+### Pre - [0.0.8]
 
-* Code testing, refactor and upgrading design system for shared_themes on both apps
-* Assorted bug fixes and enhancements
-* Migrated to nullsafety
+- Code testing, refactor and upgrading design system for shared_themes on both apps
+- Assorted bug fixes and enhancements
+- Migrated to nullsafety
