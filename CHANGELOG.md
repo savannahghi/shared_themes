@@ -1,5 +1,6 @@
-### 0.1.5
+### 0.2.0
 
+- chore: upgrade to flutter 3.0.5
 - feat: setup automated deployment to pub.dev
 
 ### 0.1.4
