@@ -8,8 +8,10 @@ void main() {
       healthcloudTextColorPurple,
       healthcloudPrimaryColor,
     ];
-    expect(silLinearGradientColors,
-        const <Color>[Color(0xFF6A54B7), Color(0xFF7949AF)]);
+    expect(
+      silLinearGradientColors,
+      const <Color>[Color(0xFF6A54B7), Color(0xFF7949AF)],
+    );
   });
   test('should test background gradient', () {
     final List<Color> gradient = silLinearGradientColors;

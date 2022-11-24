@@ -1,4 +1,4 @@
-[![Release](https://img.shields.io/badge/Version-^0.2.0-success.svg?style=for-the-badge)](https://shields.io/)
+[![Release](https://img.shields.io/badge/Version-^0.2.1-success.svg?style=for-the-badge)](https://shields.io/)
 [![Maintained](https://img.shields.io/badge/Maintained-Actively-informational.svg?style=for-the-badge)](https://shields.io/)
 
 # shared_themes
@@ -23,7 +23,7 @@ This will add a line like this to your package's pubspec.yaml (and run an implic
 
 ```dart
 dependencies:
-  shared_themes: ^0.2.0
+  shared_themes: ^0.2.1
 ```
 
 Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn more.

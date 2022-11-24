@@ -3,21 +3,23 @@ import 'package:flutter/material.dart';
 class AppTheme {
   static ThemeData getAppTheme(String flavour) {
     return ThemeData(
-        fontFamily: 'Lato',
-        primaryColor: AppColors.consumerColors['primaryColor'],
-        primaryColorDark: AppColors.consumerColors['primaryDark'],
-        accentColor: AppColors.consumerColors['accentColor'],
-        backgroundColor: AppColors.consumerColors['backgroundColor'],
-        textSelectionTheme: TextSelectionThemeData(
-          cursorColor: const Color.fromRGBO(66, 133, 244, 1.0),
-          selectionColor: AppColors.consumerColors['textSelectionColor'],
-          selectionHandleColor: const Color(0xff1de9b6),
-        )).copyWith(
+      fontFamily: 'Lato',
+      primaryColor: AppColors.consumerColors['primaryColor'],
+      primaryColorDark: AppColors.consumerColors['primaryDark'],
+      accentColor: AppColors.consumerColors['accentColor'],
+      backgroundColor: AppColors.consumerColors['backgroundColor'],
+      textSelectionTheme: TextSelectionThemeData(
+        cursorColor: const Color.fromRGBO(66, 133, 244, 1.0),
+        selectionColor: AppColors.consumerColors['textSelectionColor'],
+        selectionHandleColor: const Color(0xff1de9b6),
+      ),
+    ).copyWith(
       pageTransitionsTheme: const PageTransitionsTheme(
-          builders: <TargetPlatform, PageTransitionsBuilder>{
-            TargetPlatform.iOS: FadeUpwardsPageTransitionsBuilder(),
-            TargetPlatform.android: FadeUpwardsPageTransitionsBuilder(),
-          }),
+        builders: <TargetPlatform, PageTransitionsBuilder>{
+          TargetPlatform.iOS: FadeUpwardsPageTransitionsBuilder(),
+          TargetPlatform.android: FadeUpwardsPageTransitionsBuilder(),
+        },
+      ),
     );
   }
 }

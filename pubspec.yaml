@@ -1,6 +1,6 @@
 name: shared_themes
 description: A shared library for `BeWell-Consumer` and `SladeAdvantage` that is responsible for defining and providing theme/style guidelines
-version: 0.2.0
+version: 0.2.1
 homepage: https://github.com/savannahghi/shared_themes
 repository: https://github.com/savannahghi/shared_themes
 issue_tracker: https://github.com/savannahghi/shared_themes/issues
@@ -8,12 +8,12 @@ documentation: https://github.com/savannahghi/shared_themes/blob/main/doc/readme
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
-  flutter: ">=2.0.0"
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^2.1.0
+  google_fonts: ^3.0.1
   platform: ^3.1.0
 
 dev_dependencies:

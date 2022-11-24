@@ -1,3 +1,8 @@
+### 0.2.1
+
+- chore: upgrade to flutter 3.3.8
+- upgrade dependencies
+
 ### 0.2.0
 
 - chore: upgrade to flutter 3.0.5
